@@ -53,7 +53,7 @@ sap.ui.define([
       
         var oView = this.getView();
         oView.getModel("mainView").setProperty("/layout", "OneColumn");
-        this.getRouter().navTo("Overview",{}, true);
+        this.getRouter().navTo("overview",{}, true);
       }
 
     });
